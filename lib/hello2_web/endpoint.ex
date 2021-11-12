@@ -28,7 +28,7 @@ defmodule Hello2Web.Endpoint do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
-    plug Phoenix.Ecto.CheckRepoStatus, otp_app: :hello2
+    # plug Phoenix.Ecto.CheckRepoStatus, otp_app: :hello2
   end
 
   plug Phoenix.LiveDashboard.RequestLogger,
